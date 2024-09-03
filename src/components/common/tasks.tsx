@@ -1,6 +1,6 @@
 import type { FunctionComponent } from "react";
 
-export const Tasks = () => (
+export const Tasks: FunctionComponent = () => (
   <div className="flex-1">
     <h2 className="mb-3 uppercase underline size-4">Tasks</h2>
     <ol className="flex flex-col gap-3">

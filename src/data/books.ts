@@ -1,0 +1,40 @@
+export const books = [
+  {
+    id: 1,
+    name: "Romance",
+    description: "This is a romance novel.",
+    isbn: "978-3-16-148410-0",
+    categories: ["romance"],
+    bestSeller: true,
+  },
+  {
+    id: 2,
+    name: "Thriller & Horror",
+    description: "This is a thriller/horror novel.",
+    isbn: "978-0-306-40615-7",
+    categories: ["thriller", "horror"],
+    bestSeller: false,
+  },
+  {
+    id: 3,
+    name: "Horror",
+    description: "This book is pure horror.",
+    isbn: "978-1-4028-9462-6",
+    categories: ["horror"],
+  },
+  {
+    id: 4,
+    name: "Thriller",
+    description: "This book is a pure thriller.",
+    isbn: "978-0-545-01022-1",
+    categories: ["thriller"],
+  },
+  {
+    id: 5,
+    name: "The Weird Book",
+    description: "This book has no categories, yet is still a bestseller.",
+    isbn: "978-1-86197-876-9",
+    categories: [],
+    bestSeller: true,
+  },
+];

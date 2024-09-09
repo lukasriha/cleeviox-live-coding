@@ -21,6 +21,6 @@ This will open the app: [http://localhost:3000](http://localhost:3000)
 
 ## 📚 What next?
 
-Once you have started the app, you will see two columns, one labelled "Your results" the other "Tasks". Your code should be placed inside [src/components/common/tasks.tsx](./src/components/common/tasks.tsx).
+Once you have started the app, you will see two columns, one labelled "Your results" the other "Tasks". Your code should be placed inside [src/components/common/result.tsx](./src/components/common/result.tsx).
 
 Good luck and happy hacking! 🍀🧑‍💻

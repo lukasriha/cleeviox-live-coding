@@ -1,5 +1,3 @@
-import { NextApiRequest, NextApiResponse } from "next";
-
 import { books } from "@/data/books";
 
 const REQUEST_DELAY = 3_000;
@@ -11,11 +9,11 @@ const sleep = () =>
     }, REQUEST_DELAY)
   );
 
-export default async function handler(_: NextApiRequest, res: NextApiResponse) {
+export async function GET() {
   try {
     await sleep();
-    res.status(200).json(books);
-  } catch (error) {
+    return Response.json({ data: books });
+  } catch (error: unknown) {
     console.error(error);
   }
 }

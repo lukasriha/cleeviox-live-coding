@@ -1,7 +1,3 @@
-<div align="center">
-<img src="./public/cleeviox.svg" alt="CleevioX Logo" width="240px">    
-</div>
-
 ## ⛓️ Prerequisites
 
 - `node.js` version 18.18 or newer

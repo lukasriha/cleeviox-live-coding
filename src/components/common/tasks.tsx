@@ -17,8 +17,7 @@ export const Tasks: FunctionComponent = () => (
       <li>
         3. As you might have noticed, there is some delay when fetching the
         data. Implement a functionality, so that it is apparent that loading is
-        in progress. Also, while loading, it should not be possible to send
-        further requests.
+        in progress.
       </li>
       <li>
         4. <strong>BONUS!</strong> Provide an option to filter the fetched
